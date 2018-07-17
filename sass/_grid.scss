@@ -1,0 +1,54 @@
+/* grids */
+.row:before,
+.row:after {
+content: "";
+display: table ;
+clear: both;
+}
+/*GRID WSZYSTKIE URZĄDZENIA*/
+@media 
+only screen and (min-device-width : 320px) and (max-device-width : 480px),
+only screen and (min-width : 321px),
+only screen and (max-width : 320px),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2),
+only screen  and (min-width : 1224px),
+only screen  and (min-width : 1824px),
+only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2),
+only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2),
+only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2),
+only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2),
+only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2),
+only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2),
+only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2),
+only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2),
+only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2),
+only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2),
+only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3),
+only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3),
+only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3),
+only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3) {
+[class*="col-"]{
+float: left;
+min-height: 250px;
+padding: 0px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 17%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 40.00%; background-color: black;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 80.00%;background-color: black;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.col-13 {width: 26.66%; background-color: black;}
+.col-14 {width: 20%; background-color: black;}
+.col-15 {width: 60%; background-color: black;}
+}
