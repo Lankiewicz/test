@@ -1,0 +1,31 @@
+﻿
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+  .col-8>.banner {
+  width: 330px;
+  height: 185px;
+  float: left;
+  margin: 20px 0px 0px 50px;
+  }
+.col-8>.logo {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 10px 0px 0px 50px;
+}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+  .col-8>.banner {
+  width: 330px;
+  height: 185px;
+  float: left;
+  margin: 20px 0px 0px 50px;
+  }
+.col-8>.logo {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 10px 0px 0px 50px;
+}
+}
